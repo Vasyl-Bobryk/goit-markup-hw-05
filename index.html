@@ -549,7 +549,7 @@
             </ul>
           </div>
 
-          <div class="container-three">
+          <div class="footer-container-three">
             <p class="footer-subtitle">Subscribe</p>
             <form class="footer-form">
               <label>
@@ -572,7 +572,7 @@
       </div>
     </footer>
 
-    <div class="backdrop is-open">
+    <div class="backdrop">
       <div class="modal">
         <button type="button" class="modal-close" style="cursor: pointer">
           <svg class="modal-close-icon" width="8" height="8">
@@ -623,7 +623,7 @@
               </svg>
             </div>
           </div>
-          <div class="modal-field">
+          <div class="modal-field-comment">
             <label for="user-comment" class="modal-label">Comment</label>
             <textarea
               name="user-comment"
@@ -633,16 +633,17 @@
               class="modal-text"
             ></textarea>
           </div>
-          <div class="modal-field">
+          <div class="modal-field-checkbox">
             <input
               type="checkbox"
-              name="privacy"
-              id="privacy"
+              name="user-privacy"
+              id="user-privacy"
               required
               class="modal-check visually-hidden"
+              value="true"
             />
-            <label for="privacy" class="check-text">
-              <span>
+            <label for="user-privacy" class="check-text">
+              <span class="modal-span">
                 <svg class="modal-check-icon" width="10" height="8">
                   <use href="./images/icons.svg#icon-check"></use>
                 </svg> </span
@@ -651,7 +652,7 @@
             >
           </div>
         </form>
-        <button class="modal-btn" type="submit" style="cursor: pointer">
+        <button class="modal-btn" type="button" style="cursor: pointer">
           Send
         </button>
       </div>
