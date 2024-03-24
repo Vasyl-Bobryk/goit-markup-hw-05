@@ -642,6 +642,7 @@ color: #404bbf;
 .modal-close:focus {
     background-color: #404bbf;
     border: none;
+    fill: #ffffff;
 }
 
 .modal-close-icon {
